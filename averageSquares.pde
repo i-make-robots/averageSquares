@@ -2,15 +2,6 @@
 // dan@marginallyclever.com 2021-03-10
 //------------------------------------------------------
 
-// set true to start paused.  click the mouse in the screen to pause/unpause.
-boolean paused=true;
-// make this true to add one line per mouse click.
-boolean singleStep=false;
-
-PImage img;
-float diameter;
-boolean ready;
-
 class Box {
   public int x0,y0;
   public int x1,y1;
@@ -32,6 +23,12 @@ class Box {
 };
 
 ArrayList<Box> boxes = new ArrayList<Box>();
+
+// set true to start paused.  click the mouse in the screen to pause/unpause.
+boolean paused=true;
+
+PImage img;
+boolean ready;
 
 
 // run once on start.
