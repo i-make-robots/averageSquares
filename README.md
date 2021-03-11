@@ -1,5 +1,7 @@
 # averageSquares
- 
+
+A Processing 3.0 sketch.
+
 Start with a single box that covers an entire picture, set to the average color of the picture.
 
     until satisfied {
